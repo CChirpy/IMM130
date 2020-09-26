@@ -1,0 +1,46 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    color: dimgrey;
+    text-align: center;
+    margin: 6em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}

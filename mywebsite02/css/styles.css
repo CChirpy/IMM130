@@ -1,0 +1,27 @@
+body
+{
+    text-transform: lowercase;
+    font-family: monospace;
+    margin: 50px;
+}
+
+h1
+{
+    font-size: 24px;
+}
+
+ul
+{
+    font-size: 12px;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+footer p 
+{
+    font-size: 12px;
+    text-align: center;
+}

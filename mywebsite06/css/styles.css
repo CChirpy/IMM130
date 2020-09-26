@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    max-width: 500px;
+    padding: 2.5em;
+    
+    text-align: center;
+    background-color: white;
+    color: dimgrey;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 3.3em;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+footer {
+    text-align: left;
+}

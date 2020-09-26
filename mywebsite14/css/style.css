@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #1e1d1d;
+    color: #f1f5f3;
+}
+
+#wrapper {
+    margin: 0.7rem;
+    text-transform: lowercase;
+}
+
+/* Header */
+.hr-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 6rem;
+    margin: 1.5rem;
+}
+
+/* Navigation */
+.hr-nav .nav-container {
+    overflow: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+    max-width: 48em;
+    margin: 1rem;
+    text-align: center;
+}
+.hr-nav .nav-item {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.7rem 0.8rem;
+    text-decoration: none;
+    color: #f1f5f3;
+}
+
+/* Contact Form */
+form > div {
+    clear: both;
+    overflow: hidden;
+    padding: 1px;
+    margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+    margin: 0 0 5px 0;
+}
+form > div > fieldset label {
+    font-size: 90%;
+}
+fieldset {
+    border: 0;
+    padding: 0;
+}
+@media (max-width: 600px) {
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Card Gallery */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: .3rem;
+    width: 20rem;
+    margin: 0.8rem;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-container {
+    padding: 2px 16px;
+}
+.card-img img {
+    border-radius: .3rem .3rem 0 0;
+    width: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Typography */
+main {
+    margin: 2.5rem;
+}
+h1 {
+    font-size: 8vw;
+    line-height: auto;
+}
+h2 {
+    line-height: 2rem;
+}
+}
+p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

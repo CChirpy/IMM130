@@ -1,0 +1,182 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 10px;
+    color: #333;
+}
+
+
+/* ----- TYPOGRAPHY ----- */
+h1,
+h2,
+h3 {
+    font-family: "Roboto Slab", serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.05;
+    color: deepskyblue;
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #007ea8;
+}
+
+h3 {
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+
+/* ----- NAVIGATION ----- */
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 4px;
+
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a.active {
+    padding-bottom: 4px;
+    border-bottom: 4px solid deepskyblue;    
+}
+
+nav li a:hover {
+    color: deepskyblue;
+}
+
+.worldsnav li {
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+}
+
+/* ----- LAYOUT ----- */
+
+main {
+    clear: both;
+}
+
+
+main li {
+    border-bottom: 1px solid silver;
+}
+
+.homeworlds div {
+    border: 1px solid silver;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    width: 22%;
+}
+
+.homeworlds p {
+    font-size: 1rem;
+}
+
+footer {
+    clear: both;
+    display: block;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: .85rem;
+    text-align: center;
+    color: gray;
+}
+
+.cta {
+    padding: 20px;
+    background-color: silver;
+    clear: both;
+}
+
+
+
+/* ----- UTILITIES CLASSES ----- */
+.todo {
+    color: firebrick;
+    font-weight: 300;
+    font-size: .8rem;
+    display: none;
+}
+
+.logo {
+    font-family: "Roboto Slab", serif;
+    float: left;
+    font-size: 1.5rem;
+    line-height: 1.05;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    letter-spacing: .25rem;
+}
+
+.intro {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    text-indent: 5rem;
+}
+
+.worldcards div {
+    padding: 10px;
+}
+
+.worldcards,
+.worldcards p {
+    font-size: 1rem;
+}
+
+
+
+/* ----- IMAGES----- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.worldsphere {
+    float: left;
+    padding-right: 20px;
+}

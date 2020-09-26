@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+    padding: 2.5em;
+    max-width: 60em;
+    text-align: center;
+    background-color: white;
+    color: dimgrey;
+    
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.7em;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+    font-size: 3.3em;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+footer {
+    text-align: left;
+}
+
+section {
+    padding: 1.2em 0em;
+}
+
+.description {
+    max-width: 500px;
+    margin: auto;
+}
