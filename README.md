@@ -1,6 +1,5 @@
 # IMM130
-- Design Fundamentals for the Web
-- Spring 2019
+Design Fundamentals for the Web | Spring 2019
 
 ## Projects
 - [Hello World Class Demo](https://cchirpy.github.io/IMM130/2020-02-25/)
